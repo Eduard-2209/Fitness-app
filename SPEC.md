@@ -26,3 +26,11 @@ Quelle: Meeting 1 mit der Inhaberin Lisa Sommer (K2, 12 Nachrichten). Zu jeder R
 - Kurstyp 1:n Kurstermin
 - Trainer 1:n Kurstermin (Annahme: ein Trainer pro Termin)
 - Video n:m Tarif (Freigabe)
+
+## Business Rules
+
+- **BR1** Absage weniger als 2 Stunden vor Kursbeginn kostet eine fixe Stornogebühr, Premium zahlt nie (Nr. 3, 7, 8)
+- **BR2** Basic höchstens 5 Buchungen pro Monat ohne Ausnahme, Plus ohne harte Grenze, Premium unbegrenzt (Nr. 7, 9)
+- **BR3** Videos sehen nur Tarife, die für das Video freigegeben sind: Basic keine, Plus die Mehrheit, Premium alle (Nr. 4, 5)
+- **BR4** Wird ein Platz frei, wird die erste Person der Warteliste benachrichtigt und hat etwa 30 Minuten zur Bestätigung, sonst rückt die nächste nach. Warteliste höchstens 5 Einträge je Kurs (Nr. 2, 10)
+- **BR5** Vor jeder Buchung prüft das System in dieser Reihenfolge: Mitgliedschaft aktiv, Tarif, Buchungen im Monat (Nr. 9)
