@@ -39,3 +39,11 @@ Quelle: Meeting 1 mit der Inhaberin Lisa Sommer (K2, 12 Nachrichten). Zu jeder R
 
 - **W1** „Online ist für alle“ (Nachr. 1, 5) vs. Basic ohne Video-Zugang (Nachr. 4, 5) → aufgelöst über Freigabe je Tarif (BR3), Annahme: Basic bleibt ohne Videos
 - **W2** „Hälfte des Kursbeitrags“ (Nachr. 3) vs. fixer Betrag von etwa 5 bis 10 € (Nachr. 8) → aufgelöst über `storno_gebuehr` als fixen Betrag, Annahme für v1: z. B. 5 €
+
+## Prioritäten
+
+1. Online-Kursbuchung mit Storno und Warteliste (v1)
+2. Mitgliederverwaltung mit Tarif und Pause (v1)
+3. Trainer-Planung (v1)
+4. Videos mit Tarifzugang (später)
+5. Personal Training als 1:1-Termine (später, nur angedeutet in Nachricht 12)
