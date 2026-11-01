@@ -16,3 +16,13 @@ Quelle: Meeting 1 mit der Inhaberin Lisa Sommer (K2, 12 Nachrichten). Zu jeder R
 | Buchung | buchung_id, mitglied → Mitglied, termin → Kurstermin, gebucht_am, status (gebucht, storniert, nicht erschienen), storno_gebuehr |
 | Wartelisteneintrag | eintrag_id, mitglied → Mitglied, termin → Kurstermin, position, benachrichtigt_am (Annahme: eigene Entität statt Buchungsstatus) |
 | Video | video_id, titel |
+
+## Beziehungen
+
+- Tarif 1:n Mitglied
+- Mitglied n:m Kurstermin über Buchung
+- Mitglied n:m Kurstermin über Wartelisteneintrag
+- Trainer n:m Kurstyp (Qualifikation)
+- Kurstyp 1:n Kurstermin
+- Trainer 1:n Kurstermin (Annahme: ein Trainer pro Termin)
+- Video n:m Tarif (Freigabe)
