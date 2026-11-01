@@ -47,3 +47,14 @@ Quelle: Meeting 1 mit der Inhaberin Lisa Sommer (K2, 12 Nachrichten). Zu jeder R
 3. Trainer-Planung (v1)
 4. Videos mit Tarifzugang (später)
 5. Personal Training als 1:1-Termine (später, nur angedeutet in Nachricht 12)
+
+## Offene Fragen
+
+- Genaue Höhe der Stornogebühr, pro Kurstyp oder generell (Nachricht 8)
+- Dürfen Basic-Mitglieder Live-Streams buchen? (Nachricht 4, 5)
+- Hat Plus wirklich keine Buchungsgrenze? (Nachricht 9)
+- Umgang mit No-Shows (Nachricht 11)
+- Mehrere Räume, die geplant werden müssen? (Nachricht 6)
+- Zählt eine stornierte Buchung aufs Basic-Limit? (Nachricht 9)
+- Was passiert bei einer Pause mit bestehenden Buchungen? (Nachricht 9)
+- Ist die Bestätigungsfrist der Warteliste fix bei 30 Minuten? (Nachricht 10)
