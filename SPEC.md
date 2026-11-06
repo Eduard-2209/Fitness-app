@@ -17,12 +17,11 @@ Quelle: Meeting 1 (Nachricht 1–12) und Meeting 2 (Nachricht 13–20) mit der I
 
 ## Beziehungen
 
-- Tarif 1:n Mitglied
-- Mitglied n:m Kurstermin über Buchung
-- Mitglied n:m Kurstermin über Wartelisteneintrag
-- Trainer n:m Kurstyp (Qualifikation)
+- Mitglied 1:n Mitgliedschaft n:1 Tarif (Historie bei Tarifwechsel)
+- Mitglied n:m Kurstermin über Buchung (Warteliste = Buchung mit Status wartend)
 - Kurstyp 1:n Kurstermin
-- Trainer 1:n Kurstermin (Annahme: ein Trainer pro Termin)
+- Trainer 1:n Kurstermin (Annahme: ein Trainer je Termin)
+- Trainer n:m Kurstyp (Qualifikation)
 - Video n:m Tarif (Freigabe)
 
 ## Business Rules
