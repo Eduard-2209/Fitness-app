@@ -26,11 +26,11 @@ Quelle: Meeting 1 (Nachricht 1–12) und Meeting 2 (Nachricht 13–20) mit der I
 
 ## Business Rules
 
-- **BR1** Absage weniger als 2 Stunden vor Kursbeginn kostet eine fixe Stornogebühr, Premium zahlt nie (Nachricht. 3, 7, 8)
-- **BR2** Basic höchstens 5 Buchungen pro Monat ohne Ausnahme, Plus ohne harte Grenze, Premium unbegrenzt (Nachricht. 7, 9)
-- **BR3** Videos sehen nur Tarife, die für das Video freigegeben sind: Basic keine, Plus die Mehrheit, Premium alle (Nachricht. 4, 5)
-- **BR4** Wird ein Platz frei, wird die erste Person der Warteliste benachrichtigt und hat etwa 30 Minuten zur Bestätigung, sonst rückt die nächste nach. Warteliste höchstens 5 Einträge je Kurs (Nachricht. 2, 10)
-- **BR5** Vor jeder Buchung prüft das System in dieser Reihenfolge: Mitgliedschaft aktiv, Tarif, Buchungen im Monat (Nachricht. 9)
+- **BR1** Absage weniger als 2 Stunden vor Kursbeginn kostet einen fixen Betrag je Storno (Annahme: 8 €, Lisa nennt 8–10 €), Premium zahlt nie (Nachricht 3, 7, 8, 17)
+- **BR2** Vor jeder Buchung prüft das System in dieser Reihenfolge: Mitgliedschaft aktiv (pausiert: nichts buchbar), Tarif, Buchungen im Monat. Basic höchstens 5 pro Monat ohne Ausnahme, Plus und Premium unbegrenzt (Nachricht 7, 9, 15)
+- **BR3** Videos sehen nur Tarife, die für das Video freigegeben sind: Basic keine, Plus die Mehrheit, Premium alle (Nachricht 4, 5)
+- **BR4** Wird ein Platz frei, bekommt die erste wartende Person automatisch eine Benachrichtigung und etwa 30 Minuten zur Bestätigung, sonst rückt die nächste nach. Je Kurs höchstens 5 Wartende, ein Platz wird nie an zwei Personen vergeben (Nachricht 2, 10)
+- **BR5** Wer dreimal hintereinander gebucht hat und nicht erschienen ist, kann 2 Wochen keine Live-Kurse buchen, in jedem Tarif (Nachricht 11, 15, 16)
 
 ## Widersprüche
 
