@@ -34,8 +34,8 @@ Quelle: Meeting 1 (Nachricht 1–12) und Meeting 2 (Nachricht 13–20) mit der I
 
 ## Widersprüche
 
-- **W1** „Online ist für alle“ (Nachr. 1, 5) vs. Basic ohne Video-Zugang (Nachr. 4, 5) → aufgelöst über Freigabe je Tarif (BR3), Annahme: Basic bleibt ohne Videos
-- **W2** „Hälfte des Kursbeitrags“ (Nachr. 3) vs. fixer Betrag von etwa 5 bis 10 € (Nachr. 8) → aufgelöst über `storno_gebuehr` als fixen Betrag, Annahme für v1: z. B. 5 €
+- **W1** „Online ist für alle“ (Nachr. 5) vs. Basic ohne Video-Zugang (Nachr. 4, 5) → aufgelöst über die Freigabe je Video und Tarif (BR3), Annahme: Basic bleibt ohne Videos
+- **W2** „Hälfte des Kursbeitrags“ (Nachr. 3, 7) vs. fixer Betrag je Storno, 8 € (Nachr. 8, 17) → aufgelöst über `storno_gebuehr` als fixer Betrag für alle außer Premium (BR1), Annahme: 8 €
 
 ## Prioritäten
 
