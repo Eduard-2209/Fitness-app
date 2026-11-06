@@ -37,7 +37,7 @@ Quelle: Meeting 1 (Nachricht 1–12) und Meeting 2 (Nachricht 13–20) mit der I
 - **W1** „Online ist für alle“ (Nachr. 5) vs. Basic ohne Video-Zugang (Nachr. 4, 5) → aufgelöst über die Freigabe je Video und Tarif (BR3), Annahme: Basic bleibt ohne Videos
 - **W2** „Hälfte des Kursbeitrags“ (Nachr. 3, 7) vs. fixer Betrag je Storno, 8 € (Nachr. 8, 17) → aufgelöst über `storno_gebuehr` als fixer Betrag für alle außer Premium (BR1), Annahme: 8 €
 
-## Neue Anforderung (Meeting 2): Personal Training
+## Neue Anforderung: Personal Training
 
 Einzeltermine 1:1 zwischen Mitglied und Trainer, bisher per WhatsApp und Excel (Nachricht 12, 13). Lisa will sie erst nach den Basics (Nachricht 12).
 
