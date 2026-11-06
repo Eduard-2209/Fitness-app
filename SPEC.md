@@ -47,11 +47,14 @@ Quelle: Meeting 1 (Nachricht 1–12) und Meeting 2 (Nachricht 13–20) mit der I
 
 ## Offene Fragen
 
-- Genaue Höhe der Stornogebühr, pro Kurstyp oder generell (Nachricht 8)
-- Dürfen Basic-Mitglieder Live-Streams buchen? (Nachricht 4, 5)
-- Hat Plus wirklich keine Buchungsgrenze? (Nachricht 9)
-- Umgang mit No-Shows (Nachricht 11)
-- Mehrere Räume, die geplant werden müssen? (Nachricht 6)
-- Zählt eine stornierte Buchung aufs Basic-Limit? (Nachricht 9)
-- Was passiert bei einer Pause mit bestehenden Buchungen? (Nachricht 9)
-- Ist die Bestätigungsfrist der Warteliste fix bei 30 Minuten? (Nachricht 10)
+- Höhe der Stornogebühr: Lisa will noch kalkulieren (Nachricht 17) → Annahme: 8 €
+- Tarifwechsel mitten im Monat: keine Regel (Nachricht 20) → Annahme: neue Rechte ab Stichtag, Monatszähler läuft weiter, Monat = Kalendermonat
+- Stornoregel für Einzeltermine, evtl. strenger (Nachricht 19) → Annahme: gleiche 2-Stunden-Frist und gleicher Fixbetrag
+- No-Show-Sperre: Was sind „Live-Kurse“, wann startet der Zähler neu? (Nachricht 16) → Annahme: Studio und Live-Stream gesperrt, Videos erlaubt, Zähler startet nach einem Besuch und nach der Sperre bei 0
+- Dürfen Basic-Mitglieder Live-Streams buchen? (Nachricht 4, 5) → Annahme: ja, keine Einschränkung nach Format
+- Zählen stornierte oder wartende Buchungen aufs Basic-Limit? (Nachricht 9) → Annahme: nein
+- Pause: Dauer und bestehende Buchungen? (Nachricht 9) → Annahme: Lisa beendet die Pause, zukünftige Buchungen werden ohne Gebühr storniert
+- Mehrere Räume, Raumkonflikte, Trainer-Verfügbarkeit digital? (Nachricht 6, 13, 18) → Annahme: Raum nur als Text, Verfügbarkeit später
+- Höhe der Monatsbeiträge nicht genannt (Nachricht 4) → Annahme: Testwerte
+- Rollen und Rechte nicht besprochen (Nachricht 2, 6) → Annahme: Lisa verwaltet, Mitglieder buchen selbst, Trainer ohne Zugang
+- Bestätigungsfrist der Warteliste „vielleicht 30 Minuten“ (Nachricht 10) → Annahme: 30 Minuten fix
