@@ -37,6 +37,15 @@ Quelle: Meeting 1 (Nachricht 1–12) und Meeting 2 (Nachricht 13–20) mit der I
 - **W1** „Online ist für alle“ (Nachr. 5) vs. Basic ohne Video-Zugang (Nachr. 4, 5) → aufgelöst über die Freigabe je Video und Tarif (BR3), Annahme: Basic bleibt ohne Videos
 - **W2** „Hälfte des Kursbeitrags“ (Nachr. 3, 7) vs. fixer Betrag je Storno, 8 € (Nachr. 8, 17) → aufgelöst über `storno_gebuehr` als fixer Betrag für alle außer Premium (BR1), Annahme: 8 €
 
+## Neue Anforderung (Meeting 2): Personal Training
+
+Einzeltermine 1:1 zwischen Mitglied und Trainer, bisher per WhatsApp und Excel (Nachricht 12, 13). Lisa will sie erst nach den Basics (Nachricht 12).
+
+- **PT1** Der Preis hängt am Trainer: Tom 70 €, Marie 60 € pro Stunde (Nachricht 14), gespeichert als `einzeltermin_preis` am Trainer
+- **PT2** Premium hat einen Einzeltermin pro Monat inklusive, weitere zum Trainerpreis (Nachricht 14, Rest Annahme), gespeichert als `einzeltermine_inklusive_monat` am Tarif
+- **PT3** Für Einzeltermine soll später ein Bezahlstatus geführt werden, damit offene Beträge sichtbar sind (Nachricht 13).
+- Stornoregel für Einzeltermine: siehe Offene Fragen (Nachricht 19)
+
 ## Prioritäten
 
 1. Online-Kursbuchung mit Storno, Buchungslimit, Warteliste und No-Show-Sperre (v1)
