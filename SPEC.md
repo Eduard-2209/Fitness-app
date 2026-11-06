@@ -1,20 +1,18 @@
 # SPEC.md – FitZone Berlin (K2, Lisa Sommer)
 
-Stand: v1 nach Meeting 1 (12 Nachrichten).
-
-Quelle: Meeting 1 mit der Inhaberin Lisa Sommer (K2, 12 Nachrichten). Zu jeder Regel steht die Nachricht, aus der sie stammt. Mit „Annahme“ markierte Stellen stammen nicht direkt von Lisa.
+Quelle: Meeting 1 (Nachricht 1–12) und Meeting 2 (Nachricht 13–20) mit der Inhaberin Lisa Sommer (K2). Zu jeder Regel steht die Nachricht, aus der sie stammt. „Annahme“ heißt: Lisa hat es so nicht direkt gesagt aber angedeutet.
 
 ## Entitäten
 
 | Entität | Attribute |
 |---|---|
-| Mitglied | mitglied_nr, name, tarif → Tarif, status (aktiv, pausiert), pause_von, pause_bis |
-| Tarif | name (Basic, Plus, Premium), monatsbeitrag, max_buchungen_monat, storno_frei |
-| Kurstyp | kurstyp_id, name (Yoga, Pilates, Spinning, HIIT) |
-| Trainer | trainer_id, name |
-| Kurstermin | termin_id, kurstyp → Kurstyp, trainer → Trainer, datum, uhrzeit, max_plaetze, format (Studio, Live-Stream) |
-| Buchung | buchung_id, mitglied → Mitglied, termin → Kurstermin, gebucht_am, status (gebucht, storniert, nicht erschienen), storno_gebuehr |
-| Wartelisteneintrag | eintrag_id, mitglied → Mitglied, termin → Kurstermin, position, benachrichtigt_am (Annahme: eigene Entität statt Buchungsstatus) |
+| Mitglied | mitglied_nr, name, gesperrt_bis |
+| Mitgliedschaft | mitgliedschaft_id, mitglied → Mitglied, tarif → Tarif, gueltig_ab, gueltig_bis, status (aktiv, pausiert) |
+| Tarif | name (Basic, Plus, Premium), monatsbeitrag, buchungslimit_monat, storno_frei, einzeltermine_inklusive_monat |
+| Kurstyp | kurstyp_id, name (Yoga, Pilates, Spinning, HIIT, Bodyworkout) |
+| Trainer | trainer_id, name, einzeltermin_preis (pro Stunde) |
+| Kurstermin | termin_id, kurstyp → Kurstyp, trainer → Trainer, beginn (Datum und Uhrzeit), raum, max_plaetze, format (Studio, Live-Stream) |
+| Buchung | buchung_id, mitglied → Mitglied, termin → Kurstermin, status (gebucht, wartend, storniert, nicht erschienen), gebucht_am, storniert_am, benachrichtigt_am, storno_gebuehr |
 | Video | video_id, titel |
 
 ## Beziehungen
