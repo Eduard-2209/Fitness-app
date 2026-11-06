@@ -39,11 +39,11 @@ Quelle: Meeting 1 (Nachricht 1–12) und Meeting 2 (Nachricht 13–20) mit der I
 
 ## Prioritäten
 
-1. Online-Kursbuchung mit Storno und Warteliste (v1)
-2. Mitgliederverwaltung mit Tarif und Pause (v1)
-3. Trainer-Planung (v1)
+1. Online-Kursbuchung mit Storno, Buchungslimit, Warteliste und No-Show-Sperre (v1)
+2. Mitgliederverwaltung mit Tarif, Tarifwechsel und Pause (v1)
+3. Kurstermine und Trainer-Planung (v1)
 4. Videos mit Tarifzugang (später)
-5. Personal Training als 1:1-Termine (später, nur angedeutet in Nachricht 12)
+5. Personal Training mit Einzeltermin (später, Lisa will erst die Basics, Nachricht 12)
 
 ## Offene Fragen
 
