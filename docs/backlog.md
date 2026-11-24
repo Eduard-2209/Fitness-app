@@ -7,7 +7,7 @@ Abgeleitet aus `SPEC.md`. Ein Feature ist ein Ablauf, den eine Person in der App
 
 | ID | Name | Phase | Status | BR/Entitäten |
 |---|---|---|---|---|
-| F-001 | Mitglied anlegen und Tarif verwalten (Tarifwechsel, Pause) | 1 | offen | BR2 (aktive Mitgliedschaft als Buchungsvoraussetzung); Mitglied, Mitgliedschaft, Tarif |
+| F-001 | Mitglied anlegen und Tarif verwalten (Tarifwechsel, Pause) | 1 | fertig | BR2 (aktive Mitgliedschaft als Buchungsvoraussetzung); Mitglied, Mitgliedschaft, Tarif |
 | F-002 | Kurstermine mit Trainer planen | 1 | offen | —; Kurstyp, Kurstermin, Trainer |
 | F-003 | Kurs online buchen (Buchungslimit, Warteliste) | 1 | offen | BR2, BR4; Buchung, Kurstermin, Mitglied, Mitgliedschaft, Tarif |
 | F-004 | Buchung stornieren mit Stornogebühr | 1 | offen | BR1; Buchung, Tarif |

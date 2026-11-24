@@ -1,7 +1,7 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Get a free hosted Postgres database in seconds: `npx create-db`
+// FitZone Berlin - Datenmodell
+// Waechst mit jedem Feature. Fachliche Grundlage: SPEC.md im Repo-Root.
+// Hinweis: SQLite unterstuetzt keine Prisma-Enums; Status werden als String gefuehrt
+// und in src/lib/validierung.ts bzw. den Domänen-Modulen typisiert.
 
 generator client {
   provider = "prisma-client"
@@ -10,4 +10,45 @@ generator client {
 
 datasource db {
   provider = "sqlite"
+}
+
+// Mitglied (SPEC: mitglied_nr, name, gesperrt_bis)
+model Mitglied {
+  mitgliedNr      String          @id @map("mitglied_nr")
+  name            String
+  gesperrtBis     DateTime?       @map("gesperrt_bis")
+  mitgliedschaften Mitgliedschaft[]
+
+  @@map("mitglied")
+}
+
+// Tarif (SPEC: name, monatsbeitrag, buchungslimit_monat, storno_frei,
+// einzeltermine_inklusive_monat). Betraege in Cent.
+model Tarif {
+  id                          Int             @id @default(autoincrement())
+  name                        String          @unique
+  monatsbeitrag               Int
+  buchungslimitMonat          Int?            @map("buchungslimit_monat")
+  stornoFrei                  Boolean         @default(false) @map("storno_frei")
+  einzeltermineInklusiveMonat Int             @default(0) @map("einzeltermine_inklusive_monat")
+  mitgliedschaften            Mitgliedschaft[]
+
+  @@map("tarif")
+}
+
+// Mitgliedschaft (SPEC: mitglied, tarif, gueltig_ab, gueltig_bis, status).
+// Historie bei Tarifwechsel: mehrere Zeilen je Mitglied.
+model Mitgliedschaft {
+  id         Int      @id @default(autoincrement())
+  mitgliedNr String   @map("mitglied_nr")
+  mitglied   Mitglied @relation(fields: [mitgliedNr], references: [mitgliedNr], onDelete: Cascade)
+  tarifId    Int      @map("tarif_id")
+  tarif      Tarif    @relation(fields: [tarifId], references: [id])
+  gueltigAb  DateTime @map("gueltig_ab")
+  gueltigBis DateTime? @map("gueltig_bis")
+  status     String   @default("aktiv") // aktiv | pausiert
+  erstelltAm DateTime @default(now()) @map("erstellt_am")
+
+  @@index([mitgliedNr])
+  @@map("mitgliedschaft")
 }

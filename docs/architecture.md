@@ -10,8 +10,20 @@ Diese Datei hält die technischen Grundentscheidungen des Projekt-Setups fest. F
 | Sprache | TypeScript (strict) | Typsicherheit für Datenmodell und Business Rules |
 | Styling | Tailwind CSS 4 | Vorgabe aus `AGENTS.md` |
 | Datenbank | SQLite über Prisma 7 (lokale Datei) | Vorgabe aus `AGENTS.md`, kein DB-Server nötig |
-| Schrift | Google Fonts über `next/font` (Geist) | Vorgabe aus `AGENTS.md`; wird beim ersten Feature durch die Design-Richtung ersetzt |
-| Icons | lucide (noch nicht installiert) | Vorgabe aus `AGENTS.md`, kommt mit dem ersten UI-Feature |
+| Schrift | Google Fonts über `next/font`: Fraunces (Überschriften) + Inter (Text) | Design-Richtung aus `docs/decisions.md`, seit F-001 |
+| Icons | lucide-react | Vorgabe aus `AGENTS.md`, seit F-001 im Einsatz |
+| Tests | Vitest (`npm test`) | Je Business Rule mindestens ein Test; Regeln als reine Funktionen |
+
+## Rendering
+
+- Cache Components (`cacheComponents: true` in `next.config.ts`) sind aktiv, die
+  Seiten laufen also als Partial Prerender.
+- Seiten mit Laufzeitdaten (Mitgliederliste, Profil, Neuanlage) holen den
+  Stichtag ueber `new Date()`; sie markieren sich mit `await connection()` als
+  dynamisch und mit `export const instant = false` als blockierende Route. Ohne
+  beides bricht der Build beim Prerendern mit `new Date()` ab.
+- Komponenten, die `usePathname()` brauchen (aktiver Menuepunkt), stehen in
+  einer eigenen Client-Komponente (`nav-links.tsx`) hinter `<Suspense>`.
 
 ## Ordnerstruktur
 
